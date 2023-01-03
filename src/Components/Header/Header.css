@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-icon{
+    width: 96px;
+    margin-left:25px ;
+}
+
+.headerLeft{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;    
+}
+a>span{
+    color: white;
+    font-size: 25px;
+    margin-left:25px;
+    padding: 20px;
+    cursor: pointer;
+}
+a>span:hover{
+    color: red;
+}
