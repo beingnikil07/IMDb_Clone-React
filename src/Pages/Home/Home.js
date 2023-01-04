@@ -23,8 +23,7 @@ const Home = () => {
           infiniteLoop={true}
           showStatus={false}
         >
-          {
-            popularMovies.map((movie) => (
+          {popularMovies.map((movie) => (
             <Link
               style={{ textDecoration: "none", color: "white" }}
               to={`/movie/${movie.id}`}
