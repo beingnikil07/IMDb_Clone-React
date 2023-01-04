@@ -3,6 +3,7 @@ import "./Home.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import { Link } from "react-router-dom";
+import MovieList from '../../Components/MovieList/MovieList'
 const Home = () => {
   // storing data results into state
   const [popularMovies, setPopularMovies] = useState([]);
@@ -54,6 +55,7 @@ const Home = () => {
           ))}
         </Carousel>
       </div>
+      <MovieList />
     </>
   );
 };
